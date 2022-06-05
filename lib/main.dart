@@ -1,6 +1,7 @@
+import 'package:article_finder/data/article.dart';
 import 'package:article_finder/ui/app_colors.dart';
+import 'package:article_finder/ui/article_list.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,9 +13,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final w700BitterFont = GoogleFonts.bitter(
-      fontWeight: FontWeight.w700,
-    );
     return MaterialApp(
       title: 'RW Finder',
       theme: ThemeData(
@@ -26,15 +24,18 @@ class MyApp extends StatelessWidget {
               ),
           scaffoldBackgroundColor: AppColors.grey,
           backgroundColor: AppColors.grey,
-          primaryTextTheme: TextTheme(
-            headline6: w700BitterFont,
+          primaryTextTheme: const TextTheme(
+            headline6: TextStyle(fontFamily: 'Bitter'),
           ),
           textTheme: TextTheme(
-            subtitle1: w700BitterFont.apply(color: AppColors.black),
-            headline6: w700BitterFont.apply(color: AppColors.black),
+            subtitle1: TextStyle(fontFamily: 'Bitter', color: AppColors.black),
+            headline6: TextStyle(fontFamily: 'Bitter', color: AppColors.black),
             bodyText2: TextStyle(color: AppColors.black),
           )),
-      home: Container(),
+      home: Scaffold(
+        appBar: AppBar(),
+        body: Container(),
+      ),
     );
   }
 }
