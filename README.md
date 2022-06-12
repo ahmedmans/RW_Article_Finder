@@ -5,9 +5,11 @@ Use the popular BLoC pattern to build Flutter app architecture and manage the fl
 ## Getting Started
 
 
-<img src="https://koenig-media.raywenderlich.com/uploads/2022/03/article-list-screen-1.gif" width="200" height="500" />
+<img src="https://koenig-media.raywenderlich.com/uploads/2022/03/article-list-screen-1.gif" width="300" height="500" />
 
-![Articl Detail Screen](https://koenig-media.raywenderlich.com/uploads/2022/03/refresh-detail.gif)
+
+<img src="https://koenig-media.raywenderlich.com/uploads/2022/03/refresh-detail.gif" width="300" height="500" />
+
 
 Resources :
 
