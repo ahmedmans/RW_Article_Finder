@@ -13,5 +13,5 @@ Use the popular BLoC pattern to build Flutter app architecture and manage the fl
 
 Resources :
 
-- [raywenderlich:Getting Started with the BLoC Pattern]([https://flutter.dev/docs/get-started/codelab](https://www.raywenderlich.com/31973428-getting-started-with-the-bloc-pattern)
+- [raywenderlich:Getting Started with the BLoC Pattern]([https://www.raywenderlich.com/31973428-getting-started-with-the-bloc-pattern])
 
