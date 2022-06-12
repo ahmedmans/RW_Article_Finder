@@ -1,16 +1,14 @@
 # article_finder
 
-A new Flutter project.
+Use the popular BLoC pattern to build Flutter app architecture and manage the flow of data through your widgets using Dart streams.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+![Articl List Screen](https://koenig-media.raywenderlich.com/uploads/2022/03/article-list-screen-1.gif)
 
-A few resources to get you started if this is your first Flutter project:
+![Articl Detail Screen](https://koenig-media.raywenderlich.com/uploads/2022/03/refresh-detail.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Resources :
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [raywenderlich:Getting Started with the BLoC Pattern]([https://flutter.dev/docs/get-started/codelab](https://www.raywenderlich.com/31973428-getting-started-with-the-bloc-pattern)
+
